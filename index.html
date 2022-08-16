@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.css">
+  <script type="text/javascript" src="./main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => init_page() );
+  </script>
+  <title>Etch-a-Sketch</title>
+</head>
+<body>
+  <div id="header">
+    <h1>Etch a Sketch</h1>
+  </div>
+  <div id="body" class="flex">
+    <div id="left-container" class="flex">
+      <span>Current mode: PAINT</span>
+      <div id="button-container" class="flex">
+        <div id="btn-erase" class="tool-btn"><span class="fa fa-eraser"></span></div>
+        <div id="btn-paint" class="tool-btn"><span class="fa fa-paintbrush"></span></div>
+        <div id="btn-size" class="tool-btn"><span class="fa fa-maximize"></span></div>
+      </div>
+    </div>
+    <div id="right-container">
+      <div id="grid-container">
+      
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+
+  </div>
+</body>
+</html>
